@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{background-image: url("Images/restraurant background.jpg"); background-attachment: fixed;}
+h1 {font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;}
+h2,h3,h4,h5 {
+	font-family: "Poppins", sans-serif;
+		font-weight:300;
+}
+ 
+
+*{padding:0;margin:0;box-sizing: border-box;}
+.navigation{padding-top:60px;display:flex; justify-content: center;}
+.navv{max-width: 80%; flex: 80%; display: flex;}
+.logo{max-width: 20%; flex: 20%;}
+.logo img{width: 50%; padding-bottom: 10px;}
+.nav_menu{display: flex;justify-content:flex-end;list-style: none; max-width: 80%; flex: 80%; padding-top: 16px;font-family: "Poppins", sans-serif;}
+.side_bar{
+	list-style: none;
+	position:fixed;
+	top:0;
+	right:0;
+	height:100vh;
+	width:250px;
+	z-index: 999;
+	background-color: rgba(0,0,0,0.43);
+	backdrop-filter: blur(10px);
+	box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.ham{display: none;}
+.side_bar li{
+	max-width: 100%;
+	flex:100%;
+	max-height: 8%;
+}
+.side_bar a{
+	width:100%!important;
+}
+.nav_link{padding-left: 4%;}
+.nav_link a{ color: aliceblue; text-decoration: none; font-size: 20px;width: 100%;}
+.chill1 h1{text-align: center;padding-top: 7%;color: aliceblue;font-size: 72px;line-height: 80px;}
+.button_holder{margin: 80px 0px 0px 130px;padding-left: 38%;}
+.button1{ color: white; text-decoration: none; border: 1px solid white ; padding: 20px 20px; text-align: center;font-family: "Poppins", sans-serif;}
+.fire{max-width: 60%;display: flex;flex:60%;justify-content: center;background-color: #ffb400; padding: 20px 0px; gap:2%;}
+.box{max-width: 90%;display:flex;flex:90%; gap:2%;}
+.chill{justify-content: center;display: flex; padding: 59px 0px 0px 0px; }
+.form-control{width: 15%; height: 50px;border:1px solid black;}
+.button2{ color: black; text-decoration: none; border: 1px solid white ; padding: 15px 15px 6px 15px; text-align: center;background-color: white;font-family: "Poppins", sans-serif;}
+input{background: transparent !important;}
+.button2:hover{ color: white; text-decoration: none; border: 2px solid white ; padding: 15px 15px 6px 15px; text-align: center;background-color: transparent;}
+.sec2 img{width:50%;height:90vh;background-image: center;padding-left: 20%;}
+.sec2{display: flex;background-color: white;}
+.pulse p{padding: 30% 0px 0px 45px;font-size: 10px;color:grey;font-family: "Poppins", sans-serif;}
+.pulse h2{padding: 15px 0px 0px 45px;font-size: 42px;}
+.alarm p{padding: 50px 0px 0px 45px;font-size: 20px;}
+
+.boat p{padding: 10% 0px 0px 48%;font-family: "Poppins", sans-serif;}
+.boat h4{padding: 20px 0px 0px 45%;}
+.button3{ color: black; text-decoration: none; border: 0px solid black ; padding: 15px 15px 15px 15px; text-align: center; background-color: white; box-shadow: 1px 1px 10px gray;font-family: "Poppins", sans-serif;}
+.button3:hover{ color: black; text-decoration: none; border: 0px solid black ; padding: 15px 15px 15px 15px; text-align: center; background-color:#FFB400; transition: 0.1s; transform: scale(110%);box-shadow: 0px 0px 0px gray;}
+.button3 span{padding-right: 15px;}
+.button3 img{padding-top: 5px; width: 17px;}
+.zebra{display:flex; justify-content:center; gap:20px; padding:50px 0px;}
+ 
+
+.sec3{background-color: white;}
+.captain{position:relative; width: 100%; height: 85vh; background-color: aliceblue;}
+.circleP{max-width: 40%; display: flex; flex-direction: column; flex: 40%;}
+.always{max-width:20%; border-radius: 50%;flex: 20%;}
+.always img{width: 100%;border-radius: 50%;}
+.circle{max-width: 90%;display: flex;justify-content: center; padding: 20px 20px; gap:2%; margin: 10px 0px;background-color: white; box-shadow: 1px 1px 4px gray;}
+.circle:hover{ color: black; text-decoration: none; border: 0px solid black ; background-color:#FFB400;transition: 0.20s; box-shadow: 0px 0px 0px gray;}
+
+.zebro{max-width: 60%; flex: 60%;padding: 10px;
+    font-size: 17px;font-family: "Poppins", sans-serif;}
+.hand{ max-width:20%; flex: 20%; font-size: 50px;font-family: "Poppins", sans-serif;}
+.circlepsp{display: flex;justify-content: center; position: absolute;opacity:1;z-index: 999;}
+.sung p{justify-content: center;color:grey;display: flex;padding-top: 5%;font-family: "Poppins", sans-serif;}
+.zebro h5{padding-bottom: 10px;}
+.button4{  color: #FFB400; text-decoration: none; border: 1px solid #FFB400 ; padding: 15px 15px 14px 15px; text-align: center;background-color: white;font-family: "Poppins", sans-serif;}
+.button4:hover{ color: black; text-decoration: none; border: 2px solid #FFB400 ;  text-align: center;background-color: #FFB400;}
+.alpha{display: flex;justify-content: center;padding: 40px 0px 40px 0px; }
+.gama h6{display:flex;justify-content: center;padding-top: 10%;font-size: 34px;color:white;font-family: "Poppins", sans-serif;}
+.sec4{height:70vh;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
+
+.sec5{background-color: white;display:flex; justify-content:center;}
+
+
+.zebronics{max-width:35%;display:flex;justify-content: center; flex:30%; position: relative; top:-120px; background-color: white;}
+.zebronics_if {max-width:35%;display:flex;justify-content: center; flex:30%; position: relative; top:-120px; background-color: white;}
+.arc{display: flex;flex:80%;justify-content: center;}
+.arc_f{display: flex;flex:80%;justify-content: center;}
+.curve img{width:100%; height: 100%; object-fit: cover;}
+.curve{flex:50%; max-width: 50%;}
+.xppen{max-width: 50%; flex: 50%; text-align: center;}
+.xppen h6{font-size:20px;padding: 20px 0px;font-family: "Poppins", sans-serif;}
+.xppen p{font-size:15px; flex:100%;padding: 20px 0px;color:#8b8b92;font-family: "Poppins", sans-serif;}
+.leader{font-size:30px !important;color:#ffb400 !important;}
+
+
+.sec6{background-color: white;}
+.user-image-s-1{background-image:url("Images/images (2).jpg");width:80px;height: 80px;border-radius: 50%; background-size: cover;}
+.user-image-s img{width: 100px; height: auto;}
+.user-image-s{ display: flex; flex-direction: column; align-items: center;}
+.user-image-s h6{padding-top: 30px;font-size: 20px;font-family: "Poppins", sans-serif;}
+.user-image-s p{padding-top: 15px;color: #8b8b92;font-family: "Poppins", sans-serif;}
+.a p{display: flex;justify-content: center;color: #8b8b92;}
+.a h4{display: flex;justify-content: center;font-size: 20px;padding-top: 15px;color: #404044;}
+
+
+.sec7{background-color: white;}
+.user-image-s-2{background-image:url("Images/Italian-food_1-1366x768.webp");width:20vw;height: 190px; background-size: cover;}
+.user-image-v img{width: 20px; height: auto;position: absolute; }
+.user-image-v{ display: flex; flex-direction: column;align-items:start;}
+.user-image-v h6{padding-top: 30px;font-size: 20px;text-align: start;padding-left: 20px;font-family: "Poppins", sans-serif;}
+.user-image-v p{padding-top: 15px;color: #8b8b92;padding-left:20px;font-family: "Poppins", sans-serif;}
+.b p{display: flex;justify-content: center;color: #8b8b92;padding-top:90px;font-family: "Poppins", sans-serif;}
+.b h4{display: flex;justify-content: center;font-size: 20px;padding-top: 15px;color: #404044;font-family: "Poppins", sans-serif;}
+
+
+
+.instagram{background-color: white;padding-top: 90px;}
+.instagram-heading{display:flex;justify-content: center;}
+.instagram-heading h4 span{border:2px solid black;padding:5px 15px;font-family: "Poppins", sans-serif;}
+.instagram-heading h4{font-size: 20px;text-transform: uppercase;color: #404044;font-family: "Poppins", sans-serif;}
+
+
+.sec8{display: flex;flex: 100%;padding-top:50px;background-color:white;overflow:hidden;}
+
+.instagram-insta-img-1{background-image: url("Images/food1.jpeg");width:20%;height: 50vh; background-size: cover;postion:relative;filter: brightness(70%);}
+.instagram-insta-img-2{background-image: url("Images/food2.jpg");width:20%;height: 50vh; background-size: cover;postion:relative;filter: brightness(70%);}
+.instagram-insta-img-3{background-image: url("Images/food3.jpeg");width:20%;height: 50vh; background-size: cover;postion:relative;filter: brightness(70%);}
+.instagram-insta-img-4{background-image:url("Images/food6.jpg");width:20%;height: 50vh; background-size: cover;postion:relative;filter: brightness(70%);}
+.instagram-insta-img-5{background-image: url("Images/food5.jpg");width:20%;height: 50vh; background-size: cover;postion:relative;filter: brightness(70%);}
+
+.instagram-insta-img-1{position: relative;;transition: 1s;}
+		.feeds{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 0%; transition:0.5s; padding: 90px 102px 110px 106px;margin-left: 9%;}
+		.d{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 100%; transition:0.5s;padding: 90px 102px 110px 106px;cursor:zoom-in;}
+i{color:white; font-size: 50px;}
+
+.instagram-insta-img-2{position: relative;;transition: 1s;}
+		.tariff{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 0%; transition:0.5s; padding: 90px 102px 110px 106px;margin-left: 9%;}
+		.f{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 100%; transition:0.5s;padding: 90px 102px 110px 106px;cursor:zoom-in;}
+i{color:white; font-size: 50px;}
+
+.instagram-insta-img-3{position: relative;;transition: 1s;}
+		.half{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 0%; transition:0.5s; padding: 90px 102px 110px 106px;margin-left: 9%;}
+		.h{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 100%; transition:0.5s;padding: 90px 102px 110px 106px;cursor:zoom-in;}
+i{color:white; font-size: 50px;}
+
+.instagram-insta-img-4{position: relative;;transition: 1s;}
+		.milton{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 0%; transition:0.5s; padding: 90px 102px 110px 106px;margin-left: 9%;}
+		.j{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 100%; transition:0.5s;padding: 90px 102px 110px 106px;cursor:zoom-in;}
+i{color:white; font-size: 50px;}
+
+.instagram-insta-img-5{position: relative;;transition: 1s;}
+		.huion{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 0%; transition:0.5s; padding: 90px 102px 110px 106px;margin-left: 9%;}
+		.l{width: 250px; height: 250px; position: absolute; transform: translate(12%,29%);background-color: rgba(64, 64, 68, 0.7); opacity: 100%; transition:0.5s;padding: 90px 102px 110px 106px;cursor:zoom-in;}
+i{color:white; font-size: 50px;}
+
+.sec9{background-color:#27272b;padding-top:5%;display: flex;justify-content: center;}
+.potential{display:flex;flex: 80%;max-width: 80%; justify-content: space-between;}
+.footer{flex:20%;max-width: 20%;}
+.footer h5{color:white;font-size:20px;font-family: "Poppins", sans-serif;}
+.footer p{color:rgba(255, 255, 255, 0.5);font-size: 14px;padding-top: 20px;font-family: "Poppins", sans-serif;}
+
+.steel{flex:20%;max-width: 20%;}
+.steel h5{color:white;font-size: 20px;font-family: "Poppins", sans-serif;}
+.steel li{list-style: none;color:rgba(255, 255, 255, 0.5);font-size: 14px;padding-top: 20px;}
+.steel span{
+	color:white;
+}
+
+.ijack{flex:20%;max-width:20%;}
+.ijack h5{color:white;font-size:20px;font-family: "Poppins", sans-serif;}
+.ijack p{color: rgba(255, 255, 255, 0.5);font-size:14px;padding-top: 20px;font-family: "Poppins", sans-serif;}
+
+.newsletter{flex: 20%;max-width: 20%;}
+.newsletter h5{color: white;font-size:20px;font-family: "Poppins", sans-serif;}
+.newsletter p{color:rgba(255, 255, 255, 0.5);font-size: 14px;padding-top: 20px;font-family: "Poppins", sans-serif;}
+
+/*******************************************************************/
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+    swiper-slide img {
+      
+      object-fit: cover;
+    }
+
+    swiper-container {
+      width: 80%;
+      height: 60vh;
+      margin: 0px auto;
+    }
+ 
+   
+
+
+   
+    
